@@ -1,0 +1,66 @@
+
+
+
+header{
+    margin:0 auto;
+    
+    height:100px;
+    width:100%;
+}
+
+.header-left{
+    float:left;
+    left:20px;
+}
+.header-left{
+    padding: 0 0 0 180px;
+}
+.header-right{
+    float:right;
+    padding:35px 250px 0 0;
+}
+
+
+li a{
+    text-decoration: none;
+    padding:10px;
+    
+    
+}
+li{
+    display:inline-block;
+}
+
+
+article{
+    text-align:center;
+    width:50%;
+}
+
+article{
+    margin:0 auto;
+}
+.main-header{
+    line-height:10px;
+
+}
+.date{
+    color:lightgrey;
+    line-height:  20px;
+}
+.main-link{
+    color:lightslategrey;
+    line-height:5px;
+}
+p{
+    text-align:left;
+}
+.bottom-links{
+    text-align:left;
+}
+footer{
+    text-align:center;
+}
+.bottom-links a{
+    text-decoration:none;
+}
