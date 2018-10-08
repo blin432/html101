@@ -1,0 +1,40 @@
+header{
+   float:right;
+   background-color:pink;
+   width:85%;
+   height:100px;
+}
+
+nav{
+    float:left; 
+    height:500px;
+    width:15%;
+    background-color:grey;
+    position:relative;
+}
+main{
+    float:right;
+    background-color:purple;
+    width:85%;
+    height:90%;
+}
+b{
+   font-size:30px;
+}
+footer{
+    position:absolute;
+    margin-top:90%;
+    background-color:yellow;
+}
+
+.header-welcome{
+    padding:20px 0 0 0;
+}
+.quote{
+    background-color:grey;
+    
+}
+.quote{
+    border-width:0 0 0 10px;
+    border-style:solid;
+}

@@ -9,30 +9,57 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <h1>Benjamin Lin</h1>
-    <h2>This is my Resume</h2>
-    <div><img src="about-me.jpg" width="100"></div>
-    <div><a href="https://www.linkedin.com/in/benjamin-lin-91319a48/"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png" width="100"></a></div>
-        <h3>SKILLS<hr/></h3>
-            <ul>
-                <li>revit</li>
-                <li>AutoCad</li>
-                <li>Ram Structural Elements</li>
-                <li>ENERCALC</li>
+    <header id="header">
+        <div class="top">
+            <h1>BENJAMIN LIN<hr/></h1>
+            <h2>My Resume</h2>
+        </div>
+    </header>
+    <nav id="nav">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li id="white"><a href="../">Projects</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+     </nav>
+     <section id="section">
+         <div id="box">
+             <div class="box1">
+                <h3>Pictures!</h3>
+                <p><img src="about-me.JPG" width="100"/>
+                    <a href = "https://www.linkedin.com/feed/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEUAe7X///8AcbDi6/MAd7N9rM4Ac7G70eStyN/I2ukAebQAdbIAcLDY6fLM4e5QmsXn8ve10+U5j7/0+vx2qc2Cs9Ntq88Af7idw9uly+EgiLxvpMpTnsg4k8JEk8Lq8/i92uqev9qNu9jR4+6uy+CZvNh4sNGvyuCIstJinceTuNUxir3eoYF2AAAEwklEQVR4nO2dbXfiKhRGARk6gjEvjho1tzq215lO////u1FrrTZQOwsP9dxnf+kHk7WyCxxIOICQB7K6mU8FC+ZNnb16iZe/ZaWcTv1k0dBOVeWJYZErm/qpImNVXhwNh4JP8R3RYngwHA64FeAeOxjuDQvBU7BVFMXOMOdYRffofGtYqtTPcUVU2RpWfIuwraeVFBnnImwLMRO1S/0QV8XVouFcSdtY04h56me4MnPBZLANAAAAAAAAAAAAAAAAAID/NVYbpQbKOKZpANboRT3sFVm5rgYM5yCtmc5e86pkb2K4laN1a3lCdm9SP1NU7D7b6IQNp3wAa7N3glKO+Sha974EtyzYZASYdaegHM25hJtpt6CUJZNoY2Y+Q8mjEK0deQ1rFoWon7yCsmARTl3tN5Qs0o/UKmCYc2iIqqu3P/CDQ5eoegHDbxwMzUPAkMWwxvm7QykrDu3Qjf2CI83B0FZ+wxWLHj8UTCccmmFoUFPwKMJAIbKIpFu0pyUyaYVb3KRLMOMQRw+YTYfglJOhMPnyTLDktgDOTU+GNsWCTxt8xYh1tn/bH62aAZcoeopT03zx46nSiqffDq21tcwaIADgK2CUn9Og6gJXns0aW9sGLWdecNsARqh0ivnV9zJ8eqvo/viv7P8+KlrrjHjOJ+P68a795a6crSf5szWp9um4/FubuQtc+eswCGpNmvVDcT5VMCr66/s0+QGRDL/vDbWqHv3zIEU9TZAgENPQmqp7svVI+Uw+4o1pqENzIAdq6o1XIhrqjwpwT1HRNsdohtaEZkBOmJDW1GiGpgz8fMaaUjGW4aC5XFDKMaFiNMOL6+iOhq4txjLMPyVImQURybD+RCvc8UCW5BnL0D+S8bChqqeRDC/rCt8yonrdiGT4F1Bl66QzpJp/TWcoNzQD1ISGGU01TWgo70kKMaUhTaxJaZiRdIkpDeUzRTRNakiS7JHUsKSopkkNSfqLpIaSYliT1vAfgoaY1nBM0BCjGy5Xs/pnPVsVl1w8I2iIcQ2z8Xy7RtM5YwbTzccvjSuC1QAxDZcL8zZ0OJV/9HmqGNyU4fuN0rX+6PPNTdXSzo3SB4/hmwi2W41muOxMhLMffEclyCSPZjjpDvyhLOuW5nYMe74WZUKLcijWrMQyXPv6bh2c0CDo8mMZ+r/ST88zOy/6x3w5w5G/YwuuyiHYYD3WN29/xxZYpNoO227GMLBm+Hw3g0vv+2KGjwHDb4H7CBYExM4Yeo8OGl5/6B03Y+jThkP2hg83U0v/1pDgwJHEhj0YwhCGMIQhDGEIQxjCEIYwhCEMYQhDGMIQhjCEIQxhCEMYwhCGMIQhDGEIQxjCEIYwhCEMYQhDGMIQhjBMYhhYb5Ha0PR7XpaLt8u13Hf/lb1//avs7GLpv69PsEw2tI/w6Xq00D7CoWWENnAfw/37AQAAAAAAAAAAAAAAAAAAAAAAgCPz1A9wZeaiYXz0u9juSiwItq1NiasFwVaLKVGZoNjlPB26kkKWnAvRlK2hzPnGGp3LrWEhuNZTK4qdYfcxDAywg+2hJ1vDjqM0OKDF7lSXnaEscsWtGLXJ92fziJfM1LJSjk9Baqeqw3ku4jX7NqsbLmPUeVMfTzr5D3pkWtnuvn/IAAAAAElFTkSuQmCC" width="100"/><a>
+                </p>
+            </div>
+         </div>
+         <div id="box">
+             <div class="box2">
+                <h3>Projects:</h3>
+                <ol>
+                    <li>example 1</li>
+                    <li>example 2</li>
+                    <li>example 3</li>
+                    <li>example 4</li>
+                </ol>
+                
+             </div>
+         </div>
+         <div id="box">
+             <div class="box3">
+                 <h3>Skills</h3>
+                 <ul>
+                     <li>JavaScript</li>
+                     <li>CSS</li>
+                     <li>HTML</li>
+                 </ul>
+             </div>
+         </div>
 
-            </ul>
-        <h3>EXPERIENCE<hr/></h3>
-        <div>Roberton Loia Roof Architect and Engeers</div>
-        <div>(April 2015 - Present)</div>
-        <div><i>Structural Engineer</i></div>
-            <ol>
-                <li>Worked as part of a project team collaborating with other disciplines (MEP & Architectural) to ensure accurate drawings and to meet strict schedules.</li>
-                <li>Performed structural design and analysis for new and existing buildings according to the project’s respective IBC and ASCE building codes.</li>
-            </ol>
-    <h2>Projects:</h2>
-        <div><a href= "file:///Users/benjaminlin/Documents/digitalcrafts/repose/html/example1/index.html" target="_blank"> example 1</a></div>
+
+     </section>
+            
         
-
 
 </body>
 </html>

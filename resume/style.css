@@ -1,7 +1,59 @@
-h1,h3{
-    color:red;
+
+body{
+    background-image:url("background.jpg");
+    font-family:Arial,sans-serif;
+    font-size:16px;
+    line-height:1.6em;
+    margin:0;
+    color: antiquewhite;
+}
+#header{
+    text-align:center;
+    line-height:0.5em;
+   
 }
 
-li { 
-    color: green;
+#white {
+    color:white;
+}
+a:link{
+    color:white;
+}
+a:visit{
+    color:white;
+}
+a:hover{
+    background-color:yellow;
+
+}
+    
+#nav li{
+    display:inline;
+    padding:100px;
+
+
+    
+}
+.navbar{
+    text-align:center;
+    padding:10px;
+    text-decoration:none;
+    color:white;
+}
+
+#box{
+    float:left;
+    width: 33.3%;
+    height:250px;
+    border:1px solid #ccc;
+    padding:0px;
+    box-sizing:border-box;
+    margin:0px;
+    background-color:#333;
+}
+.box2, .box3{
+  
+    padding:20px;
+
+    
 }
