@@ -1,0 +1,109 @@
+body{
+    margin:0px;
+font-family:Arial;
+
+}
+
+.header{
+    background-image:url("../DgtlCrfts/img/atl.png");
+    height:540px;
+    background-size: cover;
+    text-align:center;
+}
+
+.nav{
+    margin:0px auto;
+    width:100%;
+    text-align:right;
+    width:600px;
+    padding-top: 10px;
+    
+}
+.nav a{
+    color:lightgrey;
+    margin-left:25px;
+    text-decoration:none;
+}
+
+.logo img{
+    width:200px;
+    height:100px;
+}
+
+.logo h1{
+    font-size:60px;
+    margin:0 0 20px 0;
+    color:white;
+    font-weight:none;
+    font-family:Arial;
+    font-weight:normal;
+
+}
+.logo h3{
+    margin:0px;
+    color:white;
+    font-family:Arial;
+    font-weight:normal;
+    
+}
+.logo{
+    margin: 140px auto;
+    margin-bottom:0;
+}
+.arrow img{
+    margin: 110px auto;
+    
+}
+
+.future {
+    text-align:center;
+    
+}
+.future h2{
+    height:100px;
+    margin:50px auto;
+    font-size: 40px;
+    font-weight:normal;
+}
+.main{
+    text-align:center;
+}
+.symbols{
+    height:300px;
+    width:190px;
+    display:inline-block;
+    margin:20px;
+    padding-bottom:100px;
+    margin-top: -50px;
+    font-family:Arial;
+    font-weight:normal;
+    
+}
+.symbols h2{
+    font-size:30px;
+    font-weight:normal;
+}
+footer{
+    text-align:center;
+    
+    background-color:grey;
+    padding-top:25px;
+    
+    
+    
+}
+
+
+footer a{
+    padding:25px;
+    color:lightgrey;
+    text-decoration:none;
+}
+.bottom
+{
+    padding-top:25px;
+    padding-bottom:0px;
+}
+
+
+
